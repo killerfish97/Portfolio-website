@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <style>
+    .line { animation: slide 2s ease-in-out infinite; }
+    .cap { animation: bob 2.4s ease-in-out infinite; transform-origin: 60px 34px; }
+    @keyframes slide {
+      0%, 100% { stroke-dashoffset: 0; opacity: 1; }
+      50% { stroke-dashoffset: 8; opacity: 0.55; }
+    }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+  </style>
+  <g class="cap">
+    <path d="M24 42 L60 24 L96 42 L60 60 Z" stroke="#FFB400" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M34 46v14c0 8 12 14 26 14s26-6 26-14V46" stroke="#FFB400" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="24" r="4" fill="#FFB400"/>
+  </g>
+  <rect x="22" y="68" width="76" height="34" rx="6" stroke="#FFB400" stroke-width="4"/>
+  <path class="line" d="M32 80h44" stroke="#FFB400" stroke-width="3" stroke-linecap="round" stroke-dasharray="44"/>
+  <path class="line" d="M32 90h28" stroke="#FFB400" stroke-width="3" stroke-linecap="round" stroke-dasharray="28" style="animation-delay:.3s"/>
+  <rect x="82" y="76" width="10" height="10" rx="2" stroke="#FFB400" stroke-width="3"/>
+</svg>

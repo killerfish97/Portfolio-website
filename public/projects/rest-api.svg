@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="100" y="140" width="600" height="210" rx="14" fill="none" stroke="url(#accent)" stroke-width="1" opacity="0.35"/>
+  <path d="M150 290 L250 220 L350 270 L450 170 L550 240 L650 190" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.55"/>
+  <text x="80" y="420" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="url(#accent)">REST API Platform</text>
+</svg>

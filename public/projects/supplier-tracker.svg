@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <style>
+    .move { animation: move 2.2s ease-in-out infinite; }
+    .dot { animation: blink 1.4s ease-in-out infinite; }
+    @keyframes move {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(8px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+  </style>
+  <path d="M18 78 H88" stroke="#FFB400" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 8"/>
+  <circle class="dot" cx="24" cy="78" r="5" fill="#FFB400"/>
+  <circle class="dot" cx="82" cy="78" r="5" fill="#FFB400" style="animation-delay:.35s"/>
+  <g class="move">
+    <rect x="34" y="46" width="46" height="28" rx="4" stroke="#FFB400" stroke-width="4"/>
+    <path d="M34 58h46" stroke="#FFB400" stroke-width="3"/>
+    <rect x="42" y="50" width="14" height="10" rx="2" stroke="#FFB400" stroke-width="3"/>
+    <circle cx="72" cy="66" r="7" stroke="#FFB400" stroke-width="3"/>
+    <circle cx="88" cy="66" r="7" stroke="#FFB400" stroke-width="3"/>
+    <path d="M79 66h9" stroke="#FFB400" stroke-width="3"/>
+  </g>
+  <rect x="48" y="30" width="24" height="14" rx="3" stroke="#FFB400" stroke-width="3"/>
+  <path d="M52 36h16" stroke="#FFB400" stroke-width="2" stroke-linecap="round"/>
+</svg>

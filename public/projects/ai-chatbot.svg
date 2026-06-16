@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <style>
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+  </style>
+  <rect x="18" y="22" width="84" height="58" rx="6" stroke="#FFB400" stroke-width="4"/>
+  <path d="M42 88h36v8H48l-6 8v-8z" stroke="#FFB400" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="30" y="36" width="60" height="34" rx="4" stroke="#FFB400" stroke-width="3"/>
+  <path d="M38 52h28" stroke="#FFB400" stroke-width="3" stroke-linecap="round"/>
+  <path d="M38 60h18" stroke="#FFB400" stroke-width="3" stroke-linecap="round"/>
+  <circle class="pulse" cx="78" cy="56" r="4" fill="#FFB400"/>
+  <circle class="pulse" cx="88" cy="56" r="4" fill="#FFB400" style="animation-delay:.2s"/>
+  <circle class="pulse" cx="98" cy="56" r="4" fill="#FFB400" style="animation-delay:.4s"/>
+</svg>

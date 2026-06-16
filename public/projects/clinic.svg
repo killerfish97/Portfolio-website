@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <path d="M400 110 L490 290 L310 290 Z" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.5"/>
+  <rect x="335" y="300" width="130" height="110" rx="10" fill="#0e7490" opacity="0.12"/>
+  <text x="80" y="420" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="url(#accent)">Clinic Management</text>
+</svg>

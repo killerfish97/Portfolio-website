@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <style>
+    .pulse-ring { animation: pulseRing 1.8s ease-in-out infinite; transform-origin: 60px 68px; }
+    .tick { animation: tick 1.8s ease-in-out infinite; transform-origin: 60px 68px; }
+    @keyframes pulseRing {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.15); opacity: 0.4; }
+    }
+    @keyframes tick {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(10deg); }
+    }
+  </style>
+  <rect x="24" y="24" width="72" height="72" rx="8" stroke="#FFB400" stroke-width="4"/>
+  <path d="M24 44h72" stroke="#FFB400" stroke-width="4"/>
+  <path d="M44 24v20" stroke="#FFB400" stroke-width="4" stroke-linecap="round"/>
+  <path d="M76 24v20" stroke="#FFB400" stroke-width="4" stroke-linecap="round"/>
+  <g class="pulse-ring">
+    <circle cx="60" cy="68" r="10" stroke="#FFB400" stroke-width="3"/>
+  </g>
+  <g class="tick">
+    <path d="M60 68v-7" stroke="#FFB400" stroke-width="3" stroke-linecap="round"/>
+    <path d="M60 68h6" stroke="#FFB400" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <path d="M38 96h44" stroke="#FFB400" stroke-width="4" stroke-linecap="round"/>
+</svg>

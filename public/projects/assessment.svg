@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <style>
+    .tick { animation: tick 2s ease-in-out infinite; }
+    @keyframes tick { 0%,100% { stroke-dashoffset: 24; } 50% { stroke-dashoffset: 0; } }
+  </style>
+  <rect x="28" y="18" width="64" height="78" rx="6" stroke="#FFB400" stroke-width="4"/>
+  <path d="M40 36h40M40 50h28M40 64h34" stroke="#FFB400" stroke-width="3" stroke-linecap="round"/>
+  <path class="tick" d="M44 82l8 8 18-20" stroke="#FFB400" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24"/>
+  <rect x="20" y="24" width="84" height="56" rx="6" stroke="#FFB400" stroke-width="3" opacity=".35"/>
+</svg>
